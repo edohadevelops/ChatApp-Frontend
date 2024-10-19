@@ -1,0 +1,12 @@
+.menu{
+    @apply absolute right-0 top-[70px] text-slate-900 w-[300px] py-[30px] bg-[#ece3ec] rounded-sm flex flex-col items-center z-50 px-4
+}
+.menu img{
+    @apply w-[100px] h-[100px] rounded-full mb-4
+}
+.icons{
+    @apply w-full flex mt-6 cursor-pointer
+}
+.icon{
+    @apply flex-1 flex justify-center border-[1px] py-2 border-slate-800
+}

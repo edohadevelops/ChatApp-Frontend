@@ -1,0 +1,9 @@
+.home{
+    @apply text-[#160716]
+}
+.greeting{
+    @apply text-[20px]
+}
+.card-container{
+    @apply flex gap-[20px] mt-6
+}

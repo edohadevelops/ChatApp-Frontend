@@ -1,0 +1,18 @@
+.message{
+    @apply flex items-end gap-2 px-4 pt-2 pb-6 text-wrap max-w-[85%] min-w-[30%] shadow-sm rounded-lg relative;
+}
+.message-text{
+    @apply text-[15px]
+}
+.message-own{
+    @apply text-white bg-[#301530];
+}
+.message-others{
+    @apply text-black bg-[white]
+}
+.message-status{
+    @apply flex w-fit items-end justify-end flex-nowrap text-[12px] gap-1 h-fit absolute bottom-1 right-2
+}
+.message-time{
+    @apply text-nowrap
+}

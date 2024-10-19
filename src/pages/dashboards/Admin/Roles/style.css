@@ -1,0 +1,15 @@
+.add-btn{
+    @apply py-3 px-6 bg-[#160716] border-solid border border-transparent text-white rounded-sm
+}
+.add-btn:hover{
+    @apply border-solid border border-[#160716] bg-white text-inherit
+}
+.input-group{
+    @apply flex flex-col gap-[5px]
+}
+.input-fields{
+    @apply flex flex-col gap-[10px]
+}
+.card-icon{
+    @apply p-1 bg-[#160716] text-white flex justify-center items-center hover:bg-inherit hover:text-[#160716] border-2 border-[#160716] transition-all
+}

@@ -1,0 +1,3 @@
+.sidebar{
+    @apply h-full w-[15%] px-8 bg-[whitesmoke] border-r-[1px] border-[#3b333b] pt-[10px] ;
+}

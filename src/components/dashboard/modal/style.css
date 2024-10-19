@@ -1,0 +1,51 @@
+.modal-container{
+    @apply overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 flex justify-center items-center w-full md:inset-0 h-full max-h-full bg-[#0000001A] backdrop-blur-sm
+}
+.modal-header{
+    @apply flex justify-between rounded-t;
+}
+.modal-content{
+    @apply relative p-8 flex flex-col gap-[20px] w-full max-h-full bg-white rounded-lg shadow-[#10182814] 
+}
+.modal-body{
+    @apply space-y-4
+}
+.modal-footer{
+    @apply flex flex-col items-center  rounded-b pt-[25px]
+}
+.modal-btn{
+    @apply py-[10px] rounded-[4px]
+}
+.btn-close{
+    @apply border-[1px] border-[#E2E8F0]
+}
+.title{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.btn-modal{
+    padding: 10px 18px;
+    width: 100%;
+    border: 1px;
+    border-radius: 4px;
+    color: #fff
+}
+.btn-confirm{
+    background-color: #B47D18;
+}
+.btn-submit{
+    background-color: #BD5A00;
+}
+.btn-delete{
+    background-color: #D92D20;
+}
+.btn-cancel{
+    background-color: #fff;
+    color: black
+}

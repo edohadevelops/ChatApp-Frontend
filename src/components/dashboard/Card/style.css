@@ -1,0 +1,12 @@
+.card{
+    @apply p-5 bg-[white] flex w-[35%] drop-shadow-md items-center gap-[20px] cursor-pointer
+}
+.card-title{
+    @apply text-gray-700 capitalize
+}
+.card-value{
+    @apply font-extrabold text-[30px]
+}
+.view{
+    @apply bg-[#f3f2f2]
+}

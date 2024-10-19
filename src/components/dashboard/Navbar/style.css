@@ -1,0 +1,15 @@
+.navbar{
+    @apply w-full h-[70px] pl-8 bg-[#301530] py-2 flex items-center justify-between pr-2 
+}
+.logo{
+    @apply flex gap-2 items-center
+}
+.logo p{
+    @apply text-white font-extrabold text-2xl mb-2
+}
+.profile{
+    @apply text-white flex gap-2 items-center cursor-pointer
+}
+.profile img{
+    @apply w-[40px] h-[40px] rounded-full
+}

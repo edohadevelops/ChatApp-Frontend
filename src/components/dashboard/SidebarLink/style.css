@@ -1,0 +1,3 @@
+.link{
+    @apply flex w-full cursor-pointer py-2 my-2 items-center gap-2
+}

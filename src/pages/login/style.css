@@ -1,0 +1,59 @@
+
+.login-component{
+    @apply h-[100vh] flex
+}
+.left-component{
+    @apply  bg-[#db91dbce]  h-full w-3/5 py-[50px] flex flex-col items-center
+}
+.right-component{
+    @apply  h-full w-2/5 bg-[#fad3face] py-[70px] px-[70px]
+}
+.heading{
+    @apply font-bold text-[25px] uppercase text-slate-900 my-2
+}
+.description{
+    @apply w-2/4 text-center text-gray-500
+}
+.img-container{
+    @apply h-[350px] w-4/5
+}
+.img-container img{
+    @apply h-full w-full;
+    color: #db91dbce;
+}
+.welcome{
+    @apply text-[30px] text-slate-900 font-semibold mb-6
+}
+.login-fields{
+    @apply w-full flex flex-col items-center
+}
+.input-group{
+    @apply w-full drop-shadow-sm bg-none flex flex-col gap-1 mb-3
+}
+.input-group label{
+    @apply block text-gray-700
+}
+.input-group input{
+    @apply w-full bg-[#fff3ff] h-[45px] rounded-md outline-none px-4 drop-shadow-md
+}
+.input-group input::placeholder{
+    @apply text-gray-600
+}
+.forgot-password{
+    @apply flex justify-end w-full
+}
+.forgot-password a{
+    @apply underline text-slate-900
+}
+.login-btn{
+    @apply w-full bg-[#2c112c] py-3 text-white  my-8 rounded-md
+}
+.disabled-btn{
+    @apply cursor-not-allowed bg-[#837683]
+}
+.create-div{
+    @apply my-6
+}
+.create-div a{
+    @apply underline  text-slate-900
+}
